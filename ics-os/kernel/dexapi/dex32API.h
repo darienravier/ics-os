@@ -49,5 +49,5 @@ void api_init();
 int api_removesystemcall(DWORD function_number);
 DWORD api_syscall(DWORD fxn,DWORD val,DWORD val2,
                    DWORD val3,DWORD val4,DWORD val5);
-
+int kchown(int fd, int uid, int gid);
 #endif
